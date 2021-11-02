@@ -1,0 +1,227 @@
+header{
+  height: 80px;
+margin: 0;
+background-color: #ce0505;
+margin-bottom:15px;
+
+}
+.mainlogo {
+  width: 125px;
+  height: 125px;
+  font-size: 75px;
+  font-weight: bold;
+  background: #fff;
+  color: #eb2929;
+  line-height: 125px;
+  text-align: center;
+  margin: auto;
+  vertical-align: middle;
+  border-radius: 50%;
+  margin-bottom: 20px;
+}
+.navbar-brand {
+width: 50px;
+height: 50px;
+line-height: 1;
+font-size: 34px;
+border-radius: 50%;
+font-weight: bold;
+background: #fff;
+text-align: center;
+color: #ce0505 !important;
+}
+.navbar-light .navbar-nav .active>.nav-link, .navbar-light .navbar-nav .nav-link.active, .navbar-light .navbar-nav .nav-link.show, .navbar-light .navbar-nav .show>.nav-link {color: #fff;font-size: 17px;text-shadow: -1px 1px 0px #000000;}
+.navbar-light .navbar-nav .nav-link:focus, .navbar-light .navbar-nav .nav-link:hover {
+color: #fff;
+}
+.createAccount a {
+color: #fff !important;
+border: 1px solid #fff;
+padding: .5em 1.5em;
+margin-left: 10px;
+border-radius: 3px;
+box-shadow: 0px 1px 1px #000000;
+text-shadow: -1px 1px 0px #000000;
+}
+.bg-light {
+background-color: #ce0505!important;
+padding-top: 13px;
+}
+header .container{
+padding:0;
+}
+.breakfast{
+font-size: 36px;
+font-weight: bold;
+color: #192f60;
+}
+section {
+display: -webkit-flex;
+display: flex;
+}
+article {
+-webkit-flex: 3;
+-ms-flex: 3;
+flex: 3;
+background-color: #f1f1f1;
+padding: 10px;
+}
+
+article img.img-fluid {
+width: 130px;
+height: 95px;
+border-radius: 10px;
+}
+
+.The-Big-Chill-Cakery {
+
+display: block;
+font-size: 30px;
+font-weight: 600;
+
+text-align: left;
+color: #192f60;
+}
+.Shop-1-Plot-D-Samruddhi-Complex-Chincholi- {
+display: block;
+font-size: 16px;
+
+text-align: left;
+color: #636f88;
+}
+.Path-6195 {
+width: 100%;
+height: 0;
+margin: 31px 0 0;
+border: solid 1px #dedfe5;
+}
+.Bakery-700 {
+
+font-size: 16px;
+font-weight: 500;
+text-align: left;
+color: #192f60;
+}
+.CUISINES-COST-FOR-TWO {
+
+font-size: 16px;
+
+text-align: left;
+color: #636f88;
+}
+.sidelist {
+list-style-type: none;
+padding-inline-start: 0;
+}
+.sidelist li{
+padding-top:10px;
+font-size: 16px;
+
+text-align: left;
+color: #8c96ab;
+}
+.pagination-lg .page-link {
+padding: 0.4rem .8em;
+font-size: 1.2rem;
+border-radius: 7px;
+border: 1px solid #8c96ab;
+color: #8c96ab;
+}
+.page-item.active .page-link {
+z-index: 3;
+color: #fff;
+border-color: #8c96ab;
+background-color: #8c96ab;
+border-radius: 7px;
+}
+li.page-item {
+border-color: #8c96ab;
+margin-left: 5px;
+margin-right: 5px;
+border-radius: 7px;
+color:#8c96ab;
+}
+.Discover-restaurants-by-type-of-meal {
+  font-size: 18px;
+ display:block;
+  text-align: left;
+  color: #8c96ab;
+}
+.Breakfast {
+
+  font-size: 18px;
+  font-weight: 600;
+
+  text-align: left;
+  color: #192f60;
+}
+.Start-your-day-with-exclusive-breakfast-options {
+  
+  font-size: 14px;
+
+  line-height: 1.5;
+
+  text-align: left;
+  color: #8c96ab;
+}
+.item-tables td{
+width:50%;
+} 
+header#myHeader:after{
+content: "";
+background-image: linear-gradient(to bottom, rgb(157 14 14 / 0%), #4f0707c4);
+height: 480px;
+top: 0;
+position: absolute;
+width: 100%;
+}
+
+.searchdiv{;
+position: relative;
+}
+.searchdiv .fa-search{
+color: #8699a9;
+position: absolute;
+top: 2px;
+left:10px;
+}
+
+.searchdiv input[type="search"]{
+padding-left: 40px;
+    width: 40%;
+    border-radius: 0;
+}
+
+
+.row{
+   width:100%;
+}
+table.item-tables {
+  box-shadow: 0 3px 6px 0 rgb(0 0 0 / 16%);
+  background-color: #fff;
+  margin-bottom: 26px;
+}
+.headlinetag{
+  color:#fff;
+  font-weight: 600;
+  font-size:36px;
+  margin-bottom:20px;
+}
+.item-tables td img{
+  width: 100%;
+  height: 130px;
+   } 
+@media (max-width: 768px) {
+div#navbarSupportedContent {
+padding: 10px;
+margin-top: 20px;
+background:#643e46ff;
+border: 1px solid #5e5a5a;
+
+} 
+div#navbarSupportedContent .createAccount a {
+margin-left:0;
+border:none;
+}
+}
+
